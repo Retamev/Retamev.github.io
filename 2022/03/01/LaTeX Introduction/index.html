@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>LaTeX 从入坑到退坑 | Reta的博客</title><meta name="keywords" content="LaTeX"><meta name="author" content="Reta"><meta name="copyright" content="Reta"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="虽然 Markdown 很好用，但是生成的 pdf 文档看起来就是没有范不够正式。此外，使用 LaTeX 也是我们之后写论文的必备技能。 本教程主要涉及已对 Markdown 较为熟识之后的迁移学习。 前置知识  Markdown 入门 Markdown 编写数学公式的方法  LaTeX 简介 我们首先解决以下几个问题：  LaTeX 是什么？ LaTeX 怎样运作？ 我该在哪里写 LaTex？">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>LaTeX 从入坑到退坑 | Reta的博客</title><meta name="keywords" content="LaTeX"><meta name="author" content="Reta"><meta name="copyright" content="Reta"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="虽然 Markdown 很好用，但是生成的 pdf 文档看起来就是没有范不够正式。此外，使用 LaTeX 也是我们之后写论文的必备技能。 本教程主要涉及已对 Markdown 较为熟识之后的迁移学习。 前置知识 Markdown 入门 Markdown 编写数学公式的方法  LaTeX 简介我们首先解决以下几个问题：  LaTeX 是什么？ LaTeX 怎样运作？ 我该在哪里写 LaTex？  在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LaTeX 从入坑到退坑">
 <meta property="og:url" content="https://retamev.github.io/2022/03/01/LaTeX%20Introduction/index.html">
 <meta property="og:site_name" content="Reta的博客">
-<meta property="og:description" content="虽然 Markdown 很好用，但是生成的 pdf 文档看起来就是没有范不够正式。此外，使用 LaTeX 也是我们之后写论文的必备技能。 本教程主要涉及已对 Markdown 较为熟识之后的迁移学习。 前置知识  Markdown 入门 Markdown 编写数学公式的方法  LaTeX 简介 我们首先解决以下几个问题：  LaTeX 是什么？ LaTeX 怎样运作？ 我该在哪里写 LaTex？">
+<meta property="og:description" content="虽然 Markdown 很好用，但是生成的 pdf 文档看起来就是没有范不够正式。此外，使用 LaTeX 也是我们之后写论文的必备技能。 本教程主要涉及已对 Markdown 较为熟识之后的迁移学习。 前置知识 Markdown 入门 Markdown 编写数学公式的方法  LaTeX 简介我们首先解决以下几个问题：  LaTeX 是什么？ LaTeX 怎样运作？ 我该在哪里写 LaTex？  在">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://s4.ax1x.com/2022/01/10/7VCgLq.jpg">
 <meta property="article:published_time" content="2022-02-28T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-03-01T15:36:14.972Z">
+<meta property="article:modified_time" content="2022-03-01T17:10:58.095Z">
 <meta property="article:author" content="Reta">
 <meta property="article:tag" content="LaTeX">
 <meta name="twitter:card" content="summary">
@@ -64,7 +64,7 @@ gtag('config', 'G-6Y2T80Y26J');
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2022-03-01 23:36:14'
+  postUpdate: '2022-03-02 01:10:58'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -153,39 +153,34 @@ gtag('config', 'G-6Y2T80Y26J');
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s4.ax1x.com/2022/01/10/7VCgLq.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Reta的博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LaTeX 从入坑到退坑</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-02-28T16:00:00.000Z" title="发表于 2022-03-01 00:00:00">2022-03-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-01T15:36:14.972Z" title="更新于 2022-03-01 23:36:14">2022-03-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BB%BC%E5%90%88/">技术/综合</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>17分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="LaTeX 从入坑到退坑"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>虽然 Markdown 很好用，但是生成的 pdf 文档看起来就是没有范不够正式。此外，使用 LaTeX 也是我们之后写论文的必备技能。</p>
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s4.ax1x.com/2022/01/10/7VCgLq.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Reta的博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LaTeX 从入坑到退坑</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-02-28T16:00:00.000Z" title="发表于 2022-03-01 00:00:00">2022-03-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-01T17:10:58.095Z" title="更新于 2022-03-02 01:10:58">2022-03-02</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BB%BC%E5%90%88/">技术/综合</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>16分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="LaTeX 从入坑到退坑"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>虽然 Markdown 很好用，但是生成的 pdf 文档看起来就是没有范不够正式。此外，使用 LaTeX 也是我们之后写论文的必备技能。</p>
 <p>本教程主要涉及已对 Markdown 较为熟识之后的迁移学习。</p>
-<h2 id="前置知识">前置知识</h2>
-<ul>
+<h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><ul>
 <li>Markdown 入门</li>
 <li>Markdown 编写数学公式的方法</li>
 </ul>
-<h2 id="LaTeX-简介">LaTeX 简介</h2>
-<p>我们首先解决以下几个问题：</p>
+<h2 id="LaTeX-简介"><a href="#LaTeX-简介" class="headerlink" title="LaTeX 简介"></a>LaTeX 简介</h2><p>我们首先解决以下几个问题：</p>
 <ul>
 <li>LaTeX 是什么？</li>
 <li>LaTeX 怎样运作？</li>
 <li>我该在哪里写 LaTex？</li>
 </ul>
 <p>在解决上述几个问题之后，我们再详细介绍该怎么写 LaTeX 的问题。</p>
-<h3 id="LaTeX-是什么？">LaTeX 是什么？</h3>
-<p>相信你读到这里已经做好觉悟要被灌输一系列关键词和其对应概念了。让我们开始：</p>
+<h3 id="LaTeX-是什么？"><a href="#LaTeX-是什么？" class="headerlink" title="LaTeX 是什么？"></a>LaTeX 是什么？</h3><p>相信你读到这里已经做好觉悟要被灌输一系列关键词和其对应概念了。让我们开始：</p>
 <blockquote>
 <p>历史回溯到 Knuth 教授的巨著 The Art of Computer Programming 将要出版之际，当出版商将他们排版的书稿草样交给 Knuth 教授的时候，他对于其中复杂数学公式的排版处理十分不满。其排版之粗糙，已达到了会影响人们理解原书内容的程度。因此，对于复杂的数学和物理公式，我们急需一种能够将其在互联网上传输的编码格式，使得人能阅读的公式和机器能存储的公式之间达到一种互相转化。</p>
 </blockquote>
 <ul>
-<li><strong>TeX</strong>：一种排版引擎，也是该引擎使用的标记语言的名称。引擎是指能够断行、分页的程序，标记语言是控制命令和文本结合的格式。可以类比理解成你写的 C++ 源代码或者更底层的机器指令码，如输入 <code>$2^6$</code>。</li>
+<li><strong>TeX</strong>：一种排版引擎，也是该引擎使用的标记语言的名称。引擎是指能够断行、分页的程序，标记语言是控制命令和文本结合的格式。可以类比理解成你写的 C++ 源代码或者更底层的机器指令码，如输入 <script type="math/tex">2^6</script>。</li>
 <li><strong>LaTeX</strong>：是一个基于 TeX 的排版系统，将用户按照它的格式编写的文档解释成 TeX 引擎能理解的形式并交付给 TeX 引擎处理，再将最终结果返回给用户。可以类比理解成 g++ 编译器，将上述代码渲染为 2626。</li>
 <li><strong>pdfTeX</strong> 与 <strong>pdfLaTeX</strong>：原版 TeX 系统生成的文件是 <code>dvi</code> 格式，而 pdfTeX 系统下生成的文件是 <code>pdf</code> 格式。</li>
 <li><strong>XeTeX</strong> 与 <strong>XeLaTeX</strong>：上述 TeX 系统生成的字符集只支持 ASCII 字符。在 XeTeX 出现之前，我们曾使用过引用引入 CJK 宏库（解决不支持中日韩字符问题的一个库）手段来处理中文字符的问题。但是这个排版系统对所有 Unicode 字符都实现了支持。</li>
 <li><strong>LuaTeX</strong> 与 <strong>LuaLaTeX</strong>：<code>pdfTeX</code> 系统的继承者，支持使用一些用户自定义脚本来实现之前需要写成 TeX 的功能。支持 Unicode，内联 lua，支持 OpenType。</li>
 </ul>
 <p>这里我们推荐使用 <code>XeTeX</code> 系统来进行我们日常的工作，我们后续的教程也围绕这个排版系统展开。为了简洁起见，我们后续不再区分上述概念，统一使用 <code>TeX</code>，<code>LaTeX</code> 来表述我们在说的这个话题。</p>
-<h3 id="LaTeX-怎样运作？">LaTeX 怎样运作？</h3>
-<p>LaTeX 排版系统的输入是含有我们敲的文本和控制命令的 <code>tex</code> 文件，输出是一份 <code>pdf</code> 文件。我们只需要负责在 <code>tex</code> 文件中写下源码，然后剩下的编译和生成工作全部交给 LaTeX 即可。</p>
+<h3 id="LaTeX-怎样运作？"><a href="#LaTeX-怎样运作？" class="headerlink" title="LaTeX 怎样运作？"></a>LaTeX 怎样运作？</h3><p>LaTeX 排版系统的输入是含有我们敲的文本和控制命令的 <code>tex</code> 文件，输出是一份 <code>pdf</code> 文件。我们只需要负责在 <code>tex</code> 文件中写下源码，然后剩下的编译和生成工作全部交给 LaTeX 即可。</p>
 <p>有时我们还可以把一个 LaTeX 项目组织成一个文件夹，此时还是一份 <code>tex</code> 文件决定一个 <code>pdf</code> 的生成，但是我们还可以在这个文件夹中引入其他一些文件，如字体文件，图片文件，<code>.cls</code> 文件（文档模板类文件）等等。此外，我们还可以在这个文件夹中编写多个 <code>tex</code> 文件，以共享文件夹中的其他资源。此时不同的 <code>tex</code> 文件之间甚至可以项目包含（类比于 C++ 的 <code>#include</code> 包含）。</p>
-<h3 id="在哪里编写-LaTeX？">在哪里编写 LaTeX？</h3>
-<p>我们有离线和在线两种模式来撰写 LaTeX。</p>
+<h3 id="在哪里编写-LaTeX？"><a href="#在哪里编写-LaTeX？" class="headerlink" title="在哪里编写 LaTeX？"></a>在哪里编写 LaTeX？</h3><p>我们有离线和在线两种模式来撰写 LaTeX。</p>
 <p>离线模式就是安装一个 LaTeX 排版系统，类比我们想写 Markdown 的时候装了一个 Typora 软件一样，我们可以安装相应的软件来辅助我们工作，如：</p>
 <ul>
 <li>TeXworks</li>
@@ -202,64 +197,20 @@ gtag('config', 'G-6Y2T80Y26J');
 <li>清华大学某系某协会网络部维护了一份自己的基于 <code>Overleaf</code> 的 LaTeX 在线编辑网站 <a target="_blank" rel="noopener" href="https://stu.cs.tsinghua.edu.cn/tex9/">TeX9</a>，需要使用酒井 ID 才能进行登录。</li>
 </ul>
 <p>我们接下来的演示便是基于 TeX9。</p>
-<h2 id="LaTeX-编写基础">LaTeX 编写基础</h2>
-<p>说是编写基础，接下来我们就要像介绍 Markdown 一样，先简单罗列一些简单的文档控制命令。在基础篇中我们先仅仅介绍怎样实现从 Markdown 到 LaTeX 的迁移。对于其中一些文档控制命令，我们将会在后续教程详细说明。</p>
+<h2 id="LaTeX-编写基础"><a href="#LaTeX-编写基础" class="headerlink" title="LaTeX 编写基础"></a>LaTeX 编写基础</h2><p>说是编写基础，接下来我们就要像介绍 Markdown 一样，先简单罗列一些简单的文档控制命令。在基础篇中我们先仅仅介绍怎样实现从 Markdown 到 LaTeX 的迁移。对于其中一些文档控制命令，我们将会在后续教程详细说明。</p>
 <p>这里提供 CheatSheet 供查阅：</p>
 <p><img src="https://s2.loli.net/2022/02/14/KP5yeuotcJhTlVO.png" alt="image-20220214004156979"></p>
 <p><img src="https://s2.loli.net/2022/02/14/j3EHglvqhoetRi4.png" alt="image-20220214004207594"></p>
-<h3 id="Hello-World">Hello, World!</h3>
-<p><img src="https://s2.loli.net/2022/02/13/HPCaZJUtNOj74uF.png" alt="image-20220213205714169"></p>
+<h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello, World!"></a>Hello, World!</h3><p><img src="https://s2.loli.net/2022/02/13/HPCaZJUtNOj74uF.png" alt="image-20220213205714169"></p>
 <p>上述便是一份 <code>tex</code> 文件的示例，我们推荐你新建一个项目，然后将下面我们要介绍的内容一一尝试。</p>
-<h3 id="支持中文字符">支持中文字符</h3>
-<p>首先，我们上述已经介绍过，支持中文字符的方式有二，一种是引入 <code>CJK</code> 宏包，另一种是使用 XeLaTeX 编译器并对源码做适当修改。这里我们采用第二种方式。</p>
+<h3 id="支持中文字符"><a href="#支持中文字符" class="headerlink" title="支持中文字符"></a>支持中文字符</h3><p>首先，我们上述已经介绍过，支持中文字符的方式有二，一种是引入 <code>CJK</code> 宏包，另一种是使用 XeLaTeX 编译器并对源码做适当修改。这里我们采用第二种方式。</p>
 <p>首先，按下你项目左上角的 Menu 按钮，然后在 Compiler 选项中选择 XeLaTeX 选项。</p>
 <p>然后，输入以下内容：</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2 3 4</code></th>
-<th><code>\documentclass[UTF8]&#123;ctexart&#125; \begin&#123;document&#125; 你好，world! \end&#123;document&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">你好，world!</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
 <p>这样我们就完成了中文字符的引入。至于 <code>documentclass</code> 是什么，我们将在后续介绍。</p>
-<h3 id="导言与文档信息">导言与文档信息</h3>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</code></th>
-<th><code>\documentclass[UTF8]&#123;ctexart&#125; \title&#123;Sample Document&#125; \author&#123;c7w&#125; \date&#123;\today&#125; \begin&#123;document&#125; % 这条控制命令会读取导言部分的文档相关信息 % 并将其渲染到文档中 % 事实上可以参考相关宏包的 Doc： % http://texdoc.net/texmf-dist/doc/latex/titling/titling.pdf \maketitle  你好，world! [在这里你就开始写你的作业第一题了] \end&#123;document&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h3 id="导言与文档信息"><a href="#导言与文档信息" class="headerlink" title="导言与文档信息"></a>导言与文档信息</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125;</span><br><span class="line">\title&#123;Sample Document&#125;</span><br><span class="line">\author&#123;c7w&#125;</span><br><span class="line">\date&#123;\today&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">% 这条控制命令会读取导言部分的文档相关信息</span><br><span class="line">% 并将其渲染到文档中</span><br><span class="line">% 事实上可以参考相关宏包的 Doc：</span><br><span class="line">% http://texdoc.net/texmf-dist/doc/latex/titling/titling.pdf</span><br><span class="line">\maketitle </span><br><span class="line"></span><br><span class="line">你好，world!</span><br><span class="line"></span><br><span class="line">[在这里你就开始写你的作业第一题了]</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/13/IbNdaCD2wFXVlAq.png" alt="image-20220213210910831"></p>
-<h3 id="章节与段落">章节与段落</h3>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40</code></th>
-<th><code>\documentclass[UTF8]&#123;ctexart&#125; \title&#123;Sample Document&#125; \author&#123;c7w&#125; \date&#123;\today&#125; \begin&#123;document&#125; \maketitle \section&#123;我是 Section 标题&#125; 我是 Section 介绍。 \subsection&#123;我是 Subsection 标题&#125; 我是 Subsection 介绍。 \subsubsection&#123;我是 Subsubsection 标题&#125; 我是 Subsubsection 介绍。 % \subsubsubsection&#123;不能继续套 sub 了，到底了&#125; \paragraph&#123;我是 Paragraph 标题&#125; 我是 Paragraph 后面跟着写的东西。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 我们都知道，只要有意义，那么就必须慎重考虑。 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 要想清楚，一天掉多少根头发，到底是一种怎么样的存在。 贝多芬曾经说过，卓越的人一大优点是：在不利与艰难的遭遇里百折不饶。  \subparagraph&#123;我是 Subparagraph 标题&#125; 我是 Subparagraph 后面跟着写的东西。 这不禁令我深思既然如何，一天掉多少根头发的发生，到底需要如何做到，不一天掉多少根头发的发生，又会如何产生。  总结的来说， 所谓一天掉多少根头发，关键是一天掉多少根头发需要如何写。 生活中，若一天掉多少根头发出现了，我们就不得不考虑它出现了的事实。 郭沫若曾经说过，形成天才的决定因素应该是勤奋。这不禁令我深思这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 \subsection&#123;这是第二节&#125; \paragraph&#123;第二节&#125; 的首段。 \subparagraph&#123;第二节&#125;的第二段。 \end&#123;document&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h3 id="章节与段落"><a href="#章节与段落" class="headerlink" title="章节与段落"></a>章节与段落</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125;</span><br><span class="line">\title&#123;Sample Document&#125;</span><br><span class="line">\author&#123;c7w&#125;</span><br><span class="line">\date&#123;\today&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\maketitle</span><br><span class="line"></span><br><span class="line">\section&#123;我是 Section 标题&#125;</span><br><span class="line"></span><br><span class="line">我是 Section 介绍。</span><br><span class="line"></span><br><span class="line">\subsection&#123;我是 Subsection 标题&#125;</span><br><span class="line">我是 Subsection 介绍。</span><br><span class="line"></span><br><span class="line">\subsubsection&#123;我是 Subsubsection 标题&#125;</span><br><span class="line">我是 Subsubsection 介绍。</span><br><span class="line"></span><br><span class="line">% \subsubsubsection&#123;不能继续套 sub 了，到底了&#125;</span><br><span class="line"></span><br><span class="line">\paragraph&#123;我是 Paragraph 标题&#125;</span><br><span class="line">我是 Paragraph 后面跟着写的东西。</span><br><span class="line">本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。</span><br><span class="line">我们都知道，只要有意义，那么就必须慎重考虑。</span><br><span class="line">这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。</span><br><span class="line">要想清楚，一天掉多少根头发，到底是一种怎么样的存在。</span><br><span class="line">贝多芬曾经说过，卓越的人一大优点是：在不利与艰难的遭遇里百折不饶。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">\subparagraph&#123;我是 Subparagraph 标题&#125;</span><br><span class="line">我是 Subparagraph 后面跟着写的东西。</span><br><span class="line">这不禁令我深思既然如何，一天掉多少根头发的发生，到底需要如何做到，不一天掉多少根头发的发生，又会如何产生。 </span><br><span class="line">总结的来说， 所谓一天掉多少根头发，关键是一天掉多少根头发需要如何写。 生活中，若一天掉多少根头发出现了，我们就不得不考虑它出现了的事实。 郭沫若曾经说过，形成天才的决定因素应该是勤奋。这不禁令我深思这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。</span><br><span class="line"></span><br><span class="line">\subsection&#123;这是第二节&#125;</span><br><span class="line">\paragraph&#123;第二节&#125; 的首段。</span><br><span class="line">\subparagraph&#123;第二节&#125;的第二段。</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/13/kIeOlBjF7uzJ5ZH.png" alt="image-20220213211528785"></p>
 <p>在文档类 <code>article</code>/<code>ctexart</code> 中（文档类的概念我们会在进阶篇中提供指导），我们使用这些控制序列来调整行文组织结构。他们分别是：</p>
 <ul>
@@ -269,314 +220,126 @@ gtag('config', 'G-6Y2T80Y26J');
 <li><code>\paragraph&#123;·&#125;</code></li>
 <li><code>\subparagraph&#123;·&#125;</code></li>
 </ul>
-<h3 id="文档目录">文档目录</h3>
-<p>我们尝试在渲染区 <code>\maketitle</code> 后加入如下控制命令：</p>
-<table>
-<thead>
-<tr>
-<th><code>1</code></th>
-<th><code>\tableofcontents </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h3 id="文档目录"><a href="#文档目录" class="headerlink" title="文档目录"></a>文档目录</h3><p>我们尝试在渲染区 <code>\maketitle</code> 后加入如下控制命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\tableofcontents</span><br></pre></td></tr></table></figure>
 <p>没错，正如你所想的，这就会生成文档的 TOC：</p>
 <p><img src="https://s2.loli.net/2022/02/13/sSI8byUWJjYLkPw.png" alt="image-20220213211830033"></p>
-<h3 id="数学公式">数学公式</h3>
-<h4 id="行内公式与行间公式">行内公式与行间公式</h4>
-<p>首先引入相应包 <strong>amsmath</strong>，然后我们简单介绍公式的引入：</p>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36</code></th>
-<th><code>\documentclass[UTF8]&#123;ctexart&#125; \usepackage&#123;amsmath&#125; % 注意这里引入相应包 \title&#123;Sample Document&#125; \author&#123;c7w&#125; \date&#123;\today&#125; \begin&#123;document&#125; \maketitle \tableofcontents \section&#123;我是 Section 标题&#125; 我是 Section 介绍。 \subsection&#123;这个 Section 我们介绍数学公式的写法&#125; \subsubsection&#123;行内公式&#125; % 行内公式基本可以照搬 Markdown 的模式。 初始处理 1 - 5 位的初始字符串集合需要处理 $18 + 18^2 + 18^3 + 18^4 + 18^5 = 2*10^6$ 的数据，因此需要 $O(T)$ 的时间，这里 $T=2*10^6$。 \subsubsection&#123;行间公式&#125; % 行间公式用 $$ $$ 或者 \[ \] 来框住都可以，但在 LaTeX 中前者会改变行文的默认行间距，因此不推荐采用。 \[ \text&#123;dp&#125;[i] = \text&#123;dp&#125;[next[i]]+1, next[i] &gt; 0. \]  \end&#123;document&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><h4 id="行内公式与行间公式"><a href="#行内公式与行间公式" class="headerlink" title="行内公式与行间公式"></a>行内公式与行间公式</h4><p>首先引入相应包 <strong>amsmath</strong>，然后我们简单介绍公式的引入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[UTF8]&#123;ctexart&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;amsmath&#125; % 注意这里引入相应包</span><br><span class="line"></span><br><span class="line">\title&#123;Sample Document&#125;</span><br><span class="line">\author&#123;c7w&#125;</span><br><span class="line">\date&#123;\today&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\maketitle</span><br><span class="line"></span><br><span class="line">\tableofcontents</span><br><span class="line"></span><br><span class="line">\section&#123;我是 Section 标题&#125;</span><br><span class="line"></span><br><span class="line">我是 Section 介绍。</span><br><span class="line"></span><br><span class="line">\subsection&#123;这个 Section 我们介绍数学公式的写法&#125;</span><br><span class="line"></span><br><span class="line">\subsubsection&#123;行内公式&#125;</span><br><span class="line"></span><br><span class="line">% 行内公式基本可以照搬 Markdown 的模式。</span><br><span class="line"></span><br><span class="line">初始处理 1 - 5 位的初始字符串集合需要处理 $18 + 18^2 + 18^3 + 18^4 + 18^5 = 2*10^6$ 的数据，因此需要 $O(T)$ 的时间，这里 $T=2*10^6$。</span><br><span class="line"></span><br><span class="line">\subsubsection&#123;行间公式&#125;</span><br><span class="line"></span><br><span class="line">% 行间公式用 $$ $$ 或者 \[ \] 来框住都可以，但在 LaTeX 中前者会改变行文的默认行间距，因此不推荐采用。</span><br><span class="line"></span><br><span class="line">\[</span><br><span class="line">\text&#123;dp&#125;[i] = \text&#123;dp&#125;[next[i]]+1, next[i] &gt; 0.</span><br><span class="line">\]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/13/CI2hzmUEwluDp6s.png" alt="image-20220213213336585"></p>
-<h4 id="上下标、根式与分式">上下标、根式与分式</h4>
-<ul>
+<h4 id="上下标、根式与分式"><a href="#上下标、根式与分式" class="headerlink" title="上下标、根式与分式"></a>上下标、根式与分式</h4><ul>
 <li>上下标请使用 <code>^</code> 与 <code>_</code></li>
 <li>根式与分式请使用 <code>\sqrt&#123;·&#125;</code> 与 <code>\frac&#123;·&#125;&#123;·&#125;</code></li>
 <li>在行间公式和行内公式中，分式的输出效果是有差异的。如果要强制行内模式的分式显示为行间模式的大小，可以使用 <code>\dfrac</code>, 反之可以使用 <code>\tfrac</code></li>
 </ul>
-<h4 id="运算符">运算符</h4>
-<p>一些小的运算符，可以在数学模式下直接输入；另一些需要用控制序列生成，如</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2</code></th>
-<th><code>\[ \pm\; \times \; \div\; \cdot\; \cap\; \cup\; \geq\; \leq\; \neq\; \approx \; \equiv \] </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h4 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h4><p>一些小的运算符，可以在数学模式下直接输入；另一些需要用控制序列生成，如</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\[ \pm\; \times \; \div\; \cdot\; \cap\; \cup\;</span><br><span class="line">\geq\; \leq\; \neq\; \approx \; \equiv \]</span><br></pre></td></tr></table></figure>
 <p>连加、连乘、极限、积分等大型运算符分别用 <code>\sum</code>, <code>\prod</code>, <code>\lim</code>, <code>\int</code> 生成。他们的上下标在行内公式中被压缩，以适应行高。我们可以用 <code>\limits</code> 和 <code>\nolimits</code> 来强制显式地指定是否压缩这些上下标。例如：</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2 3 4</code></th>
-<th><code>$ \sum_&#123;i=1&#125;^n i\quad \prod_&#123;i=1&#125;^n $ $ \sum\limits _&#123;i=1&#125;^n i\quad \prod\limits _&#123;i=1&#125;^n $ \[ \lim_&#123;x\to0&#125;x^2 \quad \int_a^b x^2 dx \] \[ \lim\nolimits _&#123;x\to0&#125;x^2\quad \int\nolimits_a^b x^2 dx \] </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ \sum_&#123;i=1&#125;^n i\quad \prod_&#123;i=1&#125;^n $</span><br><span class="line">$ \sum\limits _&#123;i=1&#125;^n i\quad \prod\limits _&#123;i=1&#125;^n $</span><br><span class="line">\[ \lim_&#123;x\to0&#125;x^2 \quad \int_a^b x^2 dx \]</span><br><span class="line">\[ \lim\nolimits _&#123;x\to0&#125;x^2\quad \int\nolimits_a^b x^2 dx \]</span><br></pre></td></tr></table></figure>
 <p>多重积分可以使用 <code>\iint</code>, <code>\iiint</code>, <code>\iiiint</code>, <code>\idotsint</code> 等命令输入。</p>
-<table>
-<thead>
-<tr>
-<th><code>1</code></th>
-<th><code>\[ \iint\quad \iiint\quad \iiiint\quad \idotsint \] </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\[ \iint\quad \iiint\quad \iiiint\quad \idotsint \]</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/13/VeI1zToC3JfAyK9.png" alt="image-20220213214301901"></p>
-<h4 id="定界符">定界符</h4>
-<p>各种括号用 <code>()</code>, <code>[]</code>, <code>\&#123;\&#125;</code>, <code>\langle\rangle</code> 等命令表示；注意花括号通常用来输入命令和环境的参数，所以在数学公式中它们前面要加 <code>\</code>。</p>
+<h4 id="定界符"><a href="#定界符" class="headerlink" title="定界符"></a>定界符</h4><p>各种括号用 <code>()</code>, <code>[]</code>, <code>\&#123;\&#125;</code>, <code>\langle\rangle</code> 等命令表示；注意花括号通常用来输入命令和环境的参数，所以在数学公式中它们前面要加 <code>\</code>。</p>
 <p>因为 LaTeX 中 <code>|</code> 和 <code>\|</code> 的应用过于随意，amsmath 宏包推荐用 <code>\lvert\rvert</code> 和 <code>\lVert\rVert</code> 取而代之。</p>
 <p>为了调整这些定界符的大小，amsmath 宏包推荐使用 <code>\big</code>, <code>\Big</code>, <code>\bigg</code>, <code>\Bigg</code> 等一系列命令放在上述括号前面调整大小。</p>
-<h4 id="省略号">省略号</h4>
-<p>省略号用 <code>\dots</code>, <code>\cdots</code>, <code>\vdots</code>, <code>\ddots</code> 等命令表示。<code>\dots</code> 和 <code>\cdots</code> 的纵向位置不同，前者一般用于有下标的序列。</p>
-<h4 id="矩阵">矩阵</h4>
-<p><code>amsmath</code> 的 <code>pmatrix</code>, <code>bmatrix</code>, <code>Bmatrix</code>, <code>vmatrix</code>, <code>Vmatrix</code> 等环境可以在矩阵两边加上各种分隔符。</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2 3 4 5</code></th>
-<th><code>\[ \begin&#123;pmatrix&#125; a&amp;b\\c&amp;d \end&#123;pmatrix&#125; \quad \begin&#123;bmatrix&#125; a&amp;b\\c&amp;d \end&#123;bmatrix&#125; \quad \begin&#123;Bmatrix&#125; a&amp;b\\c&amp;d \end&#123;Bmatrix&#125; \quad \begin&#123;vmatrix&#125; a&amp;b\\c&amp;d \end&#123;vmatrix&#125; \quad \begin&#123;Vmatrix&#125; a&amp;b\\c&amp;d \end&#123;Vmatrix&#125; \] </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h4 id="省略号"><a href="#省略号" class="headerlink" title="省略号"></a>省略号</h4><p>省略号用 <code>\dots</code>, <code>\cdots</code>, <code>\vdots</code>, <code>\ddots</code> 等命令表示。<code>\dots</code> 和 <code>\cdots</code> 的纵向位置不同，前者一般用于有下标的序列。</p>
+<h4 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h4><p><code>amsmath</code> 的 <code>pmatrix</code>, <code>bmatrix</code>, <code>Bmatrix</code>, <code>vmatrix</code>, <code>Vmatrix</code> 等环境可以在矩阵两边加上各种分隔符。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">\[ \begin&#123;pmatrix&#125; a&amp;b\\c&amp;d \end&#123;pmatrix&#125; \quad</span><br><span class="line">\begin&#123;bmatrix&#125; a&amp;b\\c&amp;d \end&#123;bmatrix&#125; \quad</span><br><span class="line">\begin&#123;Bmatrix&#125; a&amp;b\\c&amp;d \end&#123;Bmatrix&#125; \quad</span><br><span class="line">\begin&#123;vmatrix&#125; a&amp;b\\c&amp;d \end&#123;vmatrix&#125; \quad</span><br><span class="line">\begin&#123;Vmatrix&#125; a&amp;b\\c&amp;d \end&#123;Vmatrix&#125; \]</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/14/uix67cYI4UaXvK9.jpg" alt="img"></p>
-<h4 id="多行公式">多行公式</h4>
-<p>可以用 <code>aligned</code> 环境来实现，用 <code>&amp;</code> 实现位置对齐。</p>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</code></th>
-<th><code>\[ \begin&#123;aligned&#125; x = a+b+c+ \\ +d+e+f+g+d+d+d+d+d+d+d+d+d+d+d+d \\ +h+i \\ +1 \\ \end&#123;aligned&#125; \] \[ \begin&#123;aligned&#125; x &amp;= a+b+c+ \\ &amp; +d+e+f+g+d+d+d+d+d+d+d+d+d+d+d+d \\ &amp; +h+i \\ &amp; +1 \\ \end&#123;aligned&#125; \] </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h4 id="多行公式"><a href="#多行公式" class="headerlink" title="多行公式"></a>多行公式</h4><p>可以用 <code>aligned</code> 环境来实现，用 <code>&amp;</code> 实现位置对齐。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\[</span><br><span class="line">\begin&#123;aligned&#125;</span><br><span class="line">x = a+b+c+ \\</span><br><span class="line">+d+e+f+g+d+d+d+d+d+d+d+d+d+d+d+d \\</span><br><span class="line">+h+i \\</span><br><span class="line">+1 \\</span><br><span class="line">\end&#123;aligned&#125;</span><br><span class="line">\]</span><br><span class="line"></span><br><span class="line">\[</span><br><span class="line">\begin&#123;aligned&#125;</span><br><span class="line">x &amp;= a+b+c+ \\</span><br><span class="line">&amp; +d+e+f+g+d+d+d+d+d+d+d+d+d+d+d+d \\</span><br><span class="line">&amp; +h+i \\</span><br><span class="line">&amp; +1 \\</span><br><span class="line">\end&#123;aligned&#125;</span><br><span class="line">\]</span><br></pre></td></tr></table></figure>
 <p>效果：</p>
 <p><img src="https://s2.loli.net/2022/02/14/oZugGY2MF78Lk9t.png" alt="image-20220214001008550"></p>
 <p>若想要公式自带编号，可以用 <code>gather</code> 和 <code>align</code> 环境，其中 <code>gather</code> 环境将公式分行渲染，<code>align</code> 同上述 <code>aligned</code>，可以控制对齐：</p>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11</code></th>
-<th><code>\begin&#123;gather&#125; a = b+c+d \\ x = y+z \\  p = a_1 + a_2 + a_3 + \dots + a_&#123;200&#125; \end&#123;gather&#125; \begin&#123;align&#125; a &amp;= b+c+d \\ x &amp;= y+z \\ p &amp;= a_1 + a_2 + a_3 + \dots + a_&#123;200&#125; \end&#123;align&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;gather&#125;</span><br><span class="line">a = b+c+d \\</span><br><span class="line">x = y+z \\ </span><br><span class="line">p = a_1 + a_2 + a_3 + \dots + a_&#123;200&#125;</span><br><span class="line">\end&#123;gather&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;align&#125;</span><br><span class="line">a &amp;= b+c+d \\</span><br><span class="line">x &amp;= y+z \\</span><br><span class="line">p &amp;= a_1 + a_2 + a_3 + \dots + a_&#123;200&#125;</span><br><span class="line">\end&#123;align&#125;</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/14/5tZcTngyKSIsWxV.png" alt="image-20220214001355079"></p>
 <p>若想使用分段函数，可以使用 <code>cases</code> 环境：</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2 3 4 5 6 7</code></th>
-<th><code>\[ y=  \begin&#123;cases&#125; -x,\quad x\leq 0 \\ x,\quad x&gt;0 \end&#123;cases&#125;  \] </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="小结">小结</h4>
-<p>数学公式是在引入了 <strong>amsmath</strong> 包之后，利用其提供的各种各样次环境来实现了较为复杂的公式的编辑。整体来说，与 Mathjax 的风格相差不大，因此迁移学习起来也十分方便。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\[</span><br><span class="line">y= </span><br><span class="line">\begin&#123;cases&#125;</span><br><span class="line">-x,\quad x\leq 0 \\</span><br><span class="line">x,\quad x&gt;0</span><br><span class="line">\end&#123;cases&#125; </span><br><span class="line">\]</span><br></pre></td></tr></table></figure>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>数学公式是在引入了 <strong>amsmath</strong> 包之后，利用其提供的各种各样次环境来实现了较为复杂的公式的编辑。整体来说，与 Mathjax 的风格相差不大，因此迁移学习起来也十分方便。</p>
 <p>这里我们再提供辅助工具：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://mathpix.com/">https://mathpix.com/</a> 能够 OCR 手写体或是印刷体公式，而后将图片中的公式转换成 LaTeX 数学公式的代码。</li>
 </ul>
-<h3 id="表格">表格</h3>
-<p><code>tabular</code> 环境提供了最简单的表格功能。它用 <code>\hline</code> 命令表示横线，在列格式中用 <code>|</code> 表示竖线；用 <code>&amp;</code> 来分列，用 <code>\\</code> 来换行；每列可以采用居左、居中、居右等横向对齐方式，分别用 <code>l</code>、<code>c</code>、<code>r</code> 来表示。</p>
-<p>| <code> 1 2 3 4 5 6 7 8 9 10 11 12 13</code> | <code>\begin&#123;tabular&#125;&#123;|l|c|r|&#125; \hline 操作系统&amp; 发行版&amp; 编辑器\\ \hline Windows &amp; MikTeX &amp; TexMakerX \\ \hline Unix/Linux &amp; teTeX &amp; Kile \\ \hline Mac OS &amp; MacTeX &amp; TeXShop \\ \hline 通用&amp; TeX Live &amp; TeXworks \\ \hline \end&#123;tabular&#125; </code> |<br>
-| -------------------------------- | ------------------------------------------------------------ |<br>
-|                                  |                                                              |</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p><code>tabular</code> 环境提供了最简单的表格功能。它用 <code>\hline</code> 命令表示横线，在列格式中用 <code>|</code> 表示竖线；用 <code>&amp;</code> 来分列，用 <code>\\</code> 来换行；每列可以采用居左、居中、居右等横向对齐方式，分别用 <code>l</code>、<code>c</code>、<code>r</code> 来表示。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;tabular&#125;&#123;|l|c|r|&#125;</span><br><span class="line"> \hline</span><br><span class="line">操作系统&amp; 发行版&amp; 编辑器\\</span><br><span class="line"> \hline</span><br><span class="line">Windows &amp; MikTeX &amp; TexMakerX \\</span><br><span class="line"> \hline</span><br><span class="line">Unix/Linux &amp; teTeX &amp; Kile \\</span><br><span class="line"> \hline</span><br><span class="line">Mac OS &amp; MacTeX &amp; TeXShop \\</span><br><span class="line"> \hline</span><br><span class="line">通用&amp; TeX Live &amp; TeXworks \\</span><br><span class="line"> \hline</span><br><span class="line">\end&#123;tabular&#125;</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/14/ytG5hReFbjWClwg.jpg" alt="img"></p>
-<h3 id="图片">图片</h3>
-<p>在 LaTeX 中插入图片，有很多种方式。最好用的应当属利用 <code>graphicx</code> 宏包提供的 <code>\includegraphics</code> 命令。比如你在你的 TeX 源文件同目录下，有名为 <code>a.jpg</code> 的图片，你可以用这样的方式将它插入到输出文档中：</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2 3 4 5</code></th>
-<th><code>\documentclass&#123;article&#125; \usepackage&#123;graphicx&#125; \begin&#123;document&#125; \includegraphics&#123;a.jpg&#125; \end&#123;document&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>想要了解更多，参见 <code>graphicx</code> 的文档：<a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/graphics/graphicx.pdf%E3%80%82">http://texdoc.net/texmf-dist/doc/latex/graphics/graphicx.pdf。</a></p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>在 LaTeX 中插入图片，有很多种方式。最好用的应当属利用 <code>graphicx</code> 宏包提供的 <code>\includegraphics</code> 命令。比如你在你的 TeX 源文件同目录下，有名为 <code>a.jpg</code> 的图片，你可以用这样的方式将它插入到输出文档中：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\includegraphics&#123;a.jpg&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<p>想要了解更多，参见 <code>graphicx</code> 的文档：<a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/graphics/graphicx.pdf。">http://texdoc.net/texmf-dist/doc/latex/graphics/graphicx.pdf。</a></p>
 <blockquote>
 <p><strong>浮动体环境</strong></p>
 <p>什么是浮动体环境：<code>table</code> 与 <code>figure</code>，两种浮动体环境可以替代上述的表格和图片环境，实现为表格或图片自动安排位置。</p>
-<p>想了解更多有关浮动体环境的内容，详见<a target="_blank" rel="noopener" href="https://liam.page/series/#LaTeX-%E4%B8%AD%E7%9A%84%E6%B5%AE%E5%8A%A8%E4%BD%93">这里</a>。</p>
+<p>想了解更多有关浮动体环境的内容，详见<a target="_blank" rel="noopener" href="https://liam.page/series/#LaTeX-中的浮动体">这里</a>。</p>
 </blockquote>
-<h3 id="页面设置">页面设置</h3>
-<h4 id="页边距">页边距</h4>
-<p>设置页边距，推荐使用 <code>geometry</code> 宏包。可以在<a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/geometry/geometry.pdf">这里</a>查看它的说明文档。</p>
+<h3 id="页面设置"><a href="#页面设置" class="headerlink" title="页面设置"></a>页面设置</h3><h4 id="页边距"><a href="#页边距" class="headerlink" title="页边距"></a>页边距</h4><p>设置页边距，推荐使用 <code>geometry</code> 宏包。可以在<a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/geometry/geometry.pdf">这里</a>查看它的说明文档。</p>
 <p>比如我希望，将纸张的长度设置为 20cm、宽度设置为 15cm、左边距 1cm、右边距 2cm、上边距 3cm、下边距 4cm，可以在导言区加上这样几行：</p>
-<table>
-<thead>
-<tr>
-<th><code>1 2 3</code></th>
-<th><code>\usepackage&#123;geometry&#125; \geometry&#123;papersize=&#123;20cm,15cm&#125;&#125; \geometry&#123;left=1cm,right=2cm,top=3cm,bottom=4cm&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="页眉页脚">页眉页脚</h4>
-<p>设置页眉页脚，推荐使用 <code>fancyhdr</code> 宏包。可以在<a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/fancyhdr/fancyhdr.pdf">这里</a>查看它的说明文档。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;geometry&#125;</span><br><span class="line">\geometry&#123;papersize=&#123;20cm,15cm&#125;&#125;</span><br><span class="line">\geometry&#123;left=1cm,right=2cm,top=3cm,bottom=4cm&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="页眉页脚"><a href="#页眉页脚" class="headerlink" title="页眉页脚"></a>页眉页脚</h4><p>设置页眉页脚，推荐使用 <code>fancyhdr</code> 宏包。可以在<a target="_blank" rel="noopener" href="http://texdoc.net/texmf-dist/doc/latex/fancyhdr/fancyhdr.pdf">这里</a>查看它的说明文档。</p>
 <p>比如我希望，设置自定义页眉；页脚的正中写上页码；页眉和正文之间有一道宽为 0.4pt 的横线分割，可以在导言区加上如下几行：</p>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11</code></th>
-<th><code>\usepackage&#123;fancyhdr&#125; \pagestyle&#123;fancy&#125; \lhead&#123;页眉左侧&#125; \chead&#123;页眉中间&#125; \rhead&#123;页眉右侧&#125; \lfoot&#123;&#125; \cfoot&#123;\thepage&#125; \rfoot&#123;&#125; \renewcommand&#123;\headrulewidth&#125;&#123;0.4pt&#125; \renewcommand&#123;\headwidth&#125;&#123;\textwidth&#125; \renewcommand&#123;\footrulewidth&#125;&#123;0pt&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="段间距">段间距</h4>
-<p>我们可以通过修改长度 <code>\parskip</code> 的值来调整段间距。例如在导言区添加以下内容</p>
-<table>
-<thead>
-<tr>
-<th><code>1</code></th>
-<th><code>\addtolength&#123;\parskip&#125;&#123;.4em&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;fancyhdr&#125;</span><br><span class="line">\pagestyle&#123;fancy&#125;</span><br><span class="line">\lhead&#123;页眉左侧&#125;</span><br><span class="line">\chead&#123;页眉中间&#125;</span><br><span class="line">\rhead&#123;页眉右侧&#125;</span><br><span class="line">\lfoot&#123;&#125;</span><br><span class="line">\cfoot&#123;\thepage&#125;</span><br><span class="line">\rfoot&#123;&#125;</span><br><span class="line">\renewcommand&#123;\headrulewidth&#125;&#123;0.4pt&#125;</span><br><span class="line">\renewcommand&#123;\headwidth&#125;&#123;\textwidth&#125;</span><br><span class="line">\renewcommand&#123;\footrulewidth&#125;&#123;0pt&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="段间距"><a href="#段间距" class="headerlink" title="段间距"></a>段间距</h4><p>我们可以通过修改长度 <code>\parskip</code> 的值来调整段间距。例如在导言区添加以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\addtolength&#123;\parskip&#125;&#123;.4em&#125;</span><br></pre></td></tr></table></figure>
 <p>则可以在原有的基础上，增加段间距 0.4em。如果需要减小段间距，只需将该数值改为负值即可。</p>
-<h3 id="引用与尾注脚注">引用与尾注脚注</h3>
-<h4 id="交叉引用">交叉引用</h4>
-<p>交叉引用设置方法：</p>
+<h3 id="引用与尾注脚注"><a href="#引用与尾注脚注" class="headerlink" title="引用与尾注脚注"></a>引用与尾注脚注</h3><h4 id="交叉引用"><a href="#交叉引用" class="headerlink" title="交叉引用"></a>交叉引用</h4><p>交叉引用设置方法：</p>
 <ul>
 <li>给对象命名：<code>\label&#123;name&#125;</code></li>
 <li>引用对象：<code>\ref&#123;name&#125;</code></li>
 </ul>
 <p>注意，在引用对象时，<code>\ref&#123;name&#125;</code> 会被替换会被引用对象的编号。举个例子，如果被引用对象在文档中是第 5 个被命名的，那么这里就会被替换为 5.</p>
 <p>要想避免图/表/论文等等引用在计数上互相影响，你可以在命名时命名为 <code>tag:name</code> 的格式，引用时使用 <code>tag:name</code> 的格式来引用。具体来说，这些 tag 有：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Tag</th>
-<th style="text-align:left">Description</th>
+<th style="text-align:center">Tag</th>
+<th style="text-align:center">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong><code>ch:</code></strong></td>
-<td style="text-align:left">chapter</td>
+<td style="text-align:center"><strong><code>ch:</code></strong></td>
+<td style="text-align:center">chapter</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>sec:</code></strong></td>
-<td style="text-align:left">section</td>
+<td style="text-align:center"><strong><code>sec:</code></strong></td>
+<td style="text-align:center">section</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>subsec:</code></strong></td>
-<td style="text-align:left">subsection</td>
+<td style="text-align:center"><strong><code>subsec:</code></strong></td>
+<td style="text-align:center">subsection</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>fig:</code></strong></td>
-<td style="text-align:left">figure</td>
+<td style="text-align:center"><strong><code>fig:</code></strong></td>
+<td style="text-align:center">figure</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>tab:</code></strong></td>
-<td style="text-align:left">table</td>
+<td style="text-align:center"><strong><code>tab:</code></strong></td>
+<td style="text-align:center">table</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>eq:</code></strong></td>
-<td style="text-align:left">equation</td>
+<td style="text-align:center"><strong><code>eq:</code></strong></td>
+<td style="text-align:center">equation</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>lst:</code></strong></td>
-<td style="text-align:left">code listing</td>
+<td style="text-align:center"><strong><code>lst:</code></strong></td>
+<td style="text-align:center">code listing</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>itm:</code></strong></td>
-<td style="text-align:left">enumerated list item</td>
+<td style="text-align:center"><strong><code>itm:</code></strong></td>
+<td style="text-align:center">enumerated list item</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>alg:</code></strong></td>
-<td style="text-align:left">algorithm</td>
+<td style="text-align:center"><strong><code>alg:</code></strong></td>
+<td style="text-align:center">algorithm</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong><code>app:</code></strong></td>
-<td style="text-align:left">appendix subsection</td>
+<td style="text-align:center"><strong><code>app:</code></strong></td>
+<td style="text-align:center">appendix subsection</td>
 </tr>
 </tbody>
 </table>
-<h4 id="尾注脚注">尾注脚注</h4>
-<p>尾注直接在最后写就行，记得设置引用。</p>
+</div>
+<h4 id="尾注脚注"><a href="#尾注脚注" class="headerlink" title="尾注脚注"></a>尾注脚注</h4><p>尾注直接在最后写就行，记得设置引用。</p>
 <p>脚注可以使用 <code>\footnote&#123;角注内容&#125;</code> 来声明。</p>
 <blockquote>
 <p>想了解该如何更好地引入参考文献，请学习 BibTeX 宏包。</p>
@@ -584,45 +347,24 @@ gtag('config', 'G-6Y2T80Y26J');
 <li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/BibTeX">https://zh.wikipedia.org/wiki/BibTeX</a></li>
 </ul>
 </blockquote>
-<h3 id="列表与枚举">列表与枚举</h3>
-<table>
-<thead>
-<tr>
-<th><code> 1 2 3 4 5 6 7 8 9 10 11 12 13</code></th>
-<th><code>\begin&#123;enumerate&#125;    \item \LaTeX&#123;&#125; 好 处 都 有 啥        \begin&#123;description&#125;            \item[好 用] 体 验 好 才 是 真 的 好            \item[好 看] 强 迫 症 的 福 音            \item[开 源] 众 人 拾 柴 火 焰 高        \end&#123;description&#125;    \item 还 有 呢?        \begin&#123;itemize&#125;            \item 好 处 1            \item 好 处 2    \end&#123;itemize&#125; \end&#123;enumerate&#125; </code></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h3 id="列表与枚举"><a href="#列表与枚举" class="headerlink" title="列表与枚举"></a>列表与枚举</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;enumerate&#125;</span><br><span class="line">    \item \LaTeX&#123;&#125; 好 处 都 有 啥</span><br><span class="line">        \begin&#123;description&#125;</span><br><span class="line">            \item[好 用] 体 验 好 才 是 真 的 好</span><br><span class="line">            \item[好 看] 强 迫 症 的 福 音</span><br><span class="line">            \item[开 源] 众 人 拾 柴 火 焰 高</span><br><span class="line">        \end&#123;description&#125;</span><br><span class="line">    \item 还 有 呢?</span><br><span class="line">        \begin&#123;itemize&#125;</span><br><span class="line">            \item 好 处 1</span><br><span class="line">            \item 好 处 2</span><br><span class="line">    \end&#123;itemize&#125;</span><br><span class="line">\end&#123;enumerate&#125;</span><br></pre></td></tr></table></figure>
 <p><img src="https://s2.loli.net/2022/02/14/U3E8uCBy4RKxfSL.png" alt="image-20220214004408507"></p>
-<h2 id="LaTeX-后续学习">LaTeX 后续学习</h2>
-<h3 id="更多宏包">更多宏包</h3>
-<p>宏包一般都会提供相应的文档供我们阅读使用。</p>
+<h2 id="LaTeX-后续学习"><a href="#LaTeX-后续学习" class="headerlink" title="LaTeX 后续学习"></a>LaTeX 后续学习</h2><h3 id="更多宏包"><a href="#更多宏包" class="headerlink" title="更多宏包"></a>更多宏包</h3><p>宏包一般都会提供相应的文档供我们阅读使用。</p>
 <p>这里提供查询宏包对应文档的网站：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://texdoc.org/index.html">https://texdoc.org/index.html</a></li>
 </ul>
 <p><img src="https://s2.loli.net/2022/02/14/jkVbA8vBeY9FsUR.png" alt="image-20220214003834121"></p>
-<h3 id="制作自己的模板">制作自己的模板</h3>
-<p>详见参考资料中 <code>.cls</code> 文件详解部分。我们同时推荐读者可以去多读一读其他已存在的 Template 的 <code>.cls</code> 内容。</p>
-<h3 id="制作幻灯片">制作幻灯片</h3>
-<p>使用 Beamer 宏包可以制作幻灯片。详见：</p>
+<h3 id="制作自己的模板"><a href="#制作自己的模板" class="headerlink" title="制作自己的模板"></a>制作自己的模板</h3><p>详见参考资料中 <code>.cls</code> 文件详解部分。我们同时推荐读者可以去多读一读其他已存在的 Template 的 <code>.cls</code> 内容。</p>
+<h3 id="制作幻灯片"><a href="#制作幻灯片" class="headerlink" title="制作幻灯片"></a>制作幻灯片</h3><p>使用 Beamer 宏包可以制作幻灯片。详见：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://www.overleaf.com/learn/latex/Beamer">https://www.overleaf.com/learn/latex/Beamer</a></li>
 </ul>
 <p>同时，校内也提供了一些适用于各种 pre 的 Beamer 模板。</p>
-<h2 id="参考链接">参考链接</h2>
-<ul>
-<li>（推荐）一份其实很短的 LaTeX 入门文档：<a target="_blank" rel="noopener" href="https://liam.page/2014/09/08/latex-introduction/">https://liam.page/2014/09/08/latex-introduction/</a></li>
-<li>（推荐）如何使用 LaTeX 排版论文：<a target="_blank" rel="noopener" href="https://github.com/tuna/thulib-latex-talk">https://github.com/tuna/thulib-latex-talk</a></li>
-<li>（<code>.cls</code> 文件详解）How to write a LaTeX class file and design your own CV： <a target="_blank" rel="noopener" href="https://www.overleaf.com/learn/latex/How_to_write_a_LaTeX_class_file_and_design_your_own_CV_(Part_1)">https://www.overleaf.com/learn/latex/How_to_write_a_LaTeX_class_file_and_design_your_own_CV_(Part_1)</a></li>
-</ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Reta</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://retamev.github.io/2022/03/01/LaTeX%20Introduction/">https://retamev.github.io/2022/03/01/LaTeX%20Introduction/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://retamev.github.io" target="_blank">Reta的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/LaTeX/">LaTeX</a></div><div class="post_share"><div class="social-share" data-image="https://s4.ax1x.com/2022/01/10/7VCgLq.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/02/24/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/"><img class="next-cover" src="https://s4.ax1x.com/2022/01/10/7VCgLq.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">（2-9,4-9）图像处理与学术研究 课程笔记</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">前置知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LaTeX-%E7%AE%80%E4%BB%8B"><span class="toc-number">2.</span> <span class="toc-text">LaTeX 简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#LaTeX-%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-number">2.1.</span> <span class="toc-text">LaTeX 是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#LaTeX-%E6%80%8E%E6%A0%B7%E8%BF%90%E4%BD%9C%EF%BC%9F"><span class="toc-number">2.2.</span> <span class="toc-text">LaTeX 怎样运作？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E5%93%AA%E9%87%8C%E7%BC%96%E5%86%99-LaTeX%EF%BC%9F"><span class="toc-number">2.3.</span> <span class="toc-text">在哪里编写 LaTeX？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LaTeX-%E7%BC%96%E5%86%99%E5%9F%BA%E7%A1%80"><span class="toc-number">3.</span> <span class="toc-text">LaTeX 编写基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hello-World"><span class="toc-number">3.1.</span> <span class="toc-text">Hello, World!</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E5%AD%97%E7%AC%A6"><span class="toc-number">3.2.</span> <span class="toc-text">支持中文字符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E8%A8%80%E4%B8%8E%E6%96%87%E6%A1%A3%E4%BF%A1%E6%81%AF"><span class="toc-number">3.3.</span> <span class="toc-text">导言与文档信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AB%A0%E8%8A%82%E4%B8%8E%E6%AE%B5%E8%90%BD"><span class="toc-number">3.4.</span> <span class="toc-text">章节与段落</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E6%A1%A3%E7%9B%AE%E5%BD%95"><span class="toc-number">3.5.</span> <span class="toc-text">文档目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="toc-number">3.6.</span> <span class="toc-text">数学公式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%8C%E5%86%85%E5%85%AC%E5%BC%8F%E4%B8%8E%E8%A1%8C%E9%97%B4%E5%85%AC%E5%BC%8F"><span class="toc-number">3.6.1.</span> <span class="toc-text">行内公式与行间公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8A%E4%B8%8B%E6%A0%87%E3%80%81%E6%A0%B9%E5%BC%8F%E4%B8%8E%E5%88%86%E5%BC%8F"><span class="toc-number">3.6.2.</span> <span class="toc-text">上下标、根式与分式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">3.6.3.</span> <span class="toc-text">运算符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9A%E7%95%8C%E7%AC%A6"><span class="toc-number">3.6.4.</span> <span class="toc-text">定界符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9C%81%E7%95%A5%E5%8F%B7"><span class="toc-number">3.6.5.</span> <span class="toc-text">省略号</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5"><span class="toc-number">3.6.6.</span> <span class="toc-text">矩阵</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F"><span class="toc-number">3.6.7.</span> <span class="toc-text">多行公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%8F%E7%BB%93"><span class="toc-number">3.6.8.</span> <span class="toc-text">小结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC"><span class="toc-number">3.7.</span> <span class="toc-text">表格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%89%87"><span class="toc-number">3.8.</span> <span class="toc-text">图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B5%E9%9D%A2%E8%AE%BE%E7%BD%AE"><span class="toc-number">3.9.</span> <span class="toc-text">页面设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A1%B5%E8%BE%B9%E8%B7%9D"><span class="toc-number">3.9.1.</span> <span class="toc-text">页边距</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A1%B5%E7%9C%89%E9%A1%B5%E8%84%9A"><span class="toc-number">3.9.2.</span> <span class="toc-text">页眉页脚</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AE%B5%E9%97%B4%E8%B7%9D"><span class="toc-number">3.9.3.</span> <span class="toc-text">段间距</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E4%B8%8E%E5%B0%BE%E6%B3%A8%E8%84%9A%E6%B3%A8"><span class="toc-number">3.10.</span> <span class="toc-text">引用与尾注脚注</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%A4%E5%8F%89%E5%BC%95%E7%94%A8"><span class="toc-number">3.10.1.</span> <span class="toc-text">交叉引用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%BE%E6%B3%A8%E8%84%9A%E6%B3%A8"><span class="toc-number">3.10.2.</span> <span class="toc-text">尾注脚注</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E4%B8%8E%E6%9E%9A%E4%B8%BE"><span class="toc-number">3.11.</span> <span class="toc-text">列表与枚举</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LaTeX-%E5%90%8E%E7%BB%AD%E5%AD%A6%E4%B9%A0"><span class="toc-number">4.</span> <span class="toc-text">LaTeX 后续学习</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A%E5%AE%8F%E5%8C%85"><span class="toc-number">4.1.</span> <span class="toc-text">更多宏包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%B6%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E6%A8%A1%E6%9D%BF"><span class="toc-number">4.2.</span> <span class="toc-text">制作自己的模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%B6%E4%BD%9C%E5%B9%BB%E7%81%AF%E7%89%87"><span class="toc-number">4.3.</span> <span class="toc-text">制作幻灯片</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="toc-number">5.</span> <span class="toc-text">参考链接</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Reta</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><p><a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://ksmeow.moe/wp-content/uploads/2020/05/cc-by-nc-88x31-1.png"></a><br>本博客内所有原创内容采用<a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。引用内容如果侵权，请在此留言。<br>All original content in this blog is licensed under a <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <br>If any reference content infringes your rights, please contact us.</p><a href="https://icp.gov.moe/?keyword=20220770" target="_blank">萌ICP备20220770号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote>
+<p>（推荐）一份其实很短的 LaTeX 入门文档：<a target="_blank" rel="noopener" href="https://liam.page/2014/09/08/latex-introduction/">https://liam.page/2014/09/08/latex-introduction/</a><br>（推荐）如何使用 LaTeX 排版论文：<a target="_blank" rel="noopener" href="https://github.com/tuna/thulib-latex-talk">https://github.com/tuna/thulib-latex-talk</a><br>（<code>.cls</code> 文件详解）How to write a LaTeX class file and design your own CV： <a target="_blank" rel="noopener" href="https://www.overleaf.com/learn/latex/How_to_write_a_LaTeX_class_file_and_design_your_own_CV_(Part_1">https://www.overleaf.com/learn/latex/How_to_write_a_LaTeX_class_file_and_design_your_own_CV_(Part_1</a>)</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Reta</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://retamev.github.io/2022/03/01/LaTeX%20Introduction/">https://retamev.github.io/2022/03/01/LaTeX%20Introduction/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://retamev.github.io" target="_blank">Reta的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/LaTeX/">LaTeX</a></div><div class="post_share"><div class="social-share" data-image="https://s4.ax1x.com/2022/01/10/7VCgLq.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/02/24/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/"><img class="next-cover" src="https://s4.ax1x.com/2022/01/10/7VCgLq.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">（2-9,4-9）图像处理与学术研究 课程笔记</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">前置知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LaTeX-%E7%AE%80%E4%BB%8B"><span class="toc-number">2.</span> <span class="toc-text">LaTeX 简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#LaTeX-%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-number">2.1.</span> <span class="toc-text">LaTeX 是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#LaTeX-%E6%80%8E%E6%A0%B7%E8%BF%90%E4%BD%9C%EF%BC%9F"><span class="toc-number">2.2.</span> <span class="toc-text">LaTeX 怎样运作？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E5%93%AA%E9%87%8C%E7%BC%96%E5%86%99-LaTeX%EF%BC%9F"><span class="toc-number">2.3.</span> <span class="toc-text">在哪里编写 LaTeX？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LaTeX-%E7%BC%96%E5%86%99%E5%9F%BA%E7%A1%80"><span class="toc-number">3.</span> <span class="toc-text">LaTeX 编写基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hello-World"><span class="toc-number">3.1.</span> <span class="toc-text">Hello, World!</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E5%AD%97%E7%AC%A6"><span class="toc-number">3.2.</span> <span class="toc-text">支持中文字符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E8%A8%80%E4%B8%8E%E6%96%87%E6%A1%A3%E4%BF%A1%E6%81%AF"><span class="toc-number">3.3.</span> <span class="toc-text">导言与文档信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AB%A0%E8%8A%82%E4%B8%8E%E6%AE%B5%E8%90%BD"><span class="toc-number">3.4.</span> <span class="toc-text">章节与段落</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E6%A1%A3%E7%9B%AE%E5%BD%95"><span class="toc-number">3.5.</span> <span class="toc-text">文档目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="toc-number">3.6.</span> <span class="toc-text">数学公式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%8C%E5%86%85%E5%85%AC%E5%BC%8F%E4%B8%8E%E8%A1%8C%E9%97%B4%E5%85%AC%E5%BC%8F"><span class="toc-number">3.6.1.</span> <span class="toc-text">行内公式与行间公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8A%E4%B8%8B%E6%A0%87%E3%80%81%E6%A0%B9%E5%BC%8F%E4%B8%8E%E5%88%86%E5%BC%8F"><span class="toc-number">3.6.2.</span> <span class="toc-text">上下标、根式与分式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">3.6.3.</span> <span class="toc-text">运算符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9A%E7%95%8C%E7%AC%A6"><span class="toc-number">3.6.4.</span> <span class="toc-text">定界符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9C%81%E7%95%A5%E5%8F%B7"><span class="toc-number">3.6.5.</span> <span class="toc-text">省略号</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5"><span class="toc-number">3.6.6.</span> <span class="toc-text">矩阵</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F"><span class="toc-number">3.6.7.</span> <span class="toc-text">多行公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%8F%E7%BB%93"><span class="toc-number">3.6.8.</span> <span class="toc-text">小结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC"><span class="toc-number">3.7.</span> <span class="toc-text">表格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%89%87"><span class="toc-number">3.8.</span> <span class="toc-text">图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B5%E9%9D%A2%E8%AE%BE%E7%BD%AE"><span class="toc-number">3.9.</span> <span class="toc-text">页面设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A1%B5%E8%BE%B9%E8%B7%9D"><span class="toc-number">3.9.1.</span> <span class="toc-text">页边距</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A1%B5%E7%9C%89%E9%A1%B5%E8%84%9A"><span class="toc-number">3.9.2.</span> <span class="toc-text">页眉页脚</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AE%B5%E9%97%B4%E8%B7%9D"><span class="toc-number">3.9.3.</span> <span class="toc-text">段间距</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E4%B8%8E%E5%B0%BE%E6%B3%A8%E8%84%9A%E6%B3%A8"><span class="toc-number">3.10.</span> <span class="toc-text">引用与尾注脚注</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%A4%E5%8F%89%E5%BC%95%E7%94%A8"><span class="toc-number">3.10.1.</span> <span class="toc-text">交叉引用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%BE%E6%B3%A8%E8%84%9A%E6%B3%A8"><span class="toc-number">3.10.2.</span> <span class="toc-text">尾注脚注</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E4%B8%8E%E6%9E%9A%E4%B8%BE"><span class="toc-number">3.11.</span> <span class="toc-text">列表与枚举</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LaTeX-%E5%90%8E%E7%BB%AD%E5%AD%A6%E4%B9%A0"><span class="toc-number">4.</span> <span class="toc-text">LaTeX 后续学习</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A%E5%AE%8F%E5%8C%85"><span class="toc-number">4.1.</span> <span class="toc-text">更多宏包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%B6%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E6%A8%A1%E6%9D%BF"><span class="toc-number">4.2.</span> <span class="toc-text">制作自己的模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%B6%E4%BD%9C%E5%B9%BB%E7%81%AF%E7%89%87"><span class="toc-number">4.3.</span> <span class="toc-text">制作幻灯片</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reference"><span class="toc-number">5.</span> <span class="toc-text">Reference</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Reta</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><p><a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://ksmeow.moe/wp-content/uploads/2020/05/cc-by-nc-88x31-1.png"></a><br>本博客内所有原创内容采用<a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。引用内容如果侵权，请在此留言。<br>All original content in this blog is licensed under a <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <br>If any reference content infringes your rights, please contact us.</p><a href="https://icp.gov.moe/?keyword=20220770" target="_blank">萌ICP备20220770号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
