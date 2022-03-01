@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://retamev.github.io/2022/03/01/LaTeX%20Introduction/</loc>
+    
+    <lastmod>2022-03-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://retamev.github.io/2022/02/24/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/</loc>
     
     <lastmod>2022-03-01</lastmod>
@@ -117,6 +126,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://retamev.github.io/tags/LaTeX/</loc>
+    <lastmod>2022-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -163,6 +179,13 @@
   
   <url>
     <loc>https://retamev.github.io/categories/%E7%90%86%E8%AE%BA/%E7%90%86%E8%AE%BA-%E6%96%87%E5%8C%96%E8%AF%BE/</loc>
+    <lastmod>2022-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BB%BC%E5%90%88/</loc>
     <lastmod>2022-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
