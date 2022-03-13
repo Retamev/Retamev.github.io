@@ -182,13 +182,6 @@
 
   
   <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-03-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://retamev.github.io/categories/%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2022-03-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -203,7 +196,7 @@
   </url>
   
   <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -218,6 +211,13 @@
   
   <url>
     <loc>https://retamev.github.io/categories/%E7%90%86%E8%AE%BA/%E7%90%86%E8%AE%BA-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2022-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2022-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
