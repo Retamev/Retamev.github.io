@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://s4.ax1x.com/2022/01/10/7VCgLq.jpg">
 <meta property="article:published_time" content="2022-04-16T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-04-17T11:14:55.305Z">
+<meta property="article:modified_time" content="2022-04-17T13:07:13.562Z">
 <meta property="article:author" content="Reta">
 <meta property="article:tag" content="QRCode">
 <meta property="article:tag" content="CTF">
@@ -65,7 +65,7 @@ gtag('config', 'G-6Y2T80Y26J');
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2022-04-17 19:14:55'
+  postUpdate: '2022-04-17 21:07:13'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -154,7 +154,7 @@ gtag('config', 'G-6Y2T80Y26J');
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s4.ax1x.com/2022/01/10/7VCgLq.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Reta的博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">「QRCode 标准阅读」#1 构成及数据编码</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-16T16:00:00.000Z" title="发表于 2022-04-17 00:00:00">2022-04-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-17T11:14:55.305Z" title="更新于 2022-04-17 19:14:55">2022-04-17</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-CTF/">技术/CTF</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>7分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="「QRCode 标准阅读」#1 构成及数据编码"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="基础描述及结构（6-1、6-3）"><a href="#基础描述及结构（6-1、6-3）" class="headerlink" title="基础描述及结构（6.1、6.3）"></a>基础描述及结构（6.1、6.3）</h2><h3 id="基础描述（5-3、6-1）"><a href="#基础描述（5-3、6-1）" class="headerlink" title="基础描述（5.3、6.1）"></a>基础描述（5.3、6.1）</h3><ul>
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s4.ax1x.com/2022/01/10/7VCgLq.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Reta的博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Docs</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">「QRCode 标准阅读」#1 构成及数据编码</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-16T16:00:00.000Z" title="发表于 2022-04-17 00:00:00">2022-04-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-17T13:07:13.562Z" title="更新于 2022-04-17 21:07:13">2022-04-17</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-CTF/">技术/CTF</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>8分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="「QRCode 标准阅读」#1 构成及数据编码"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="基础描述及结构（6-1、6-3）"><a href="#基础描述及结构（6-1、6-3）" class="headerlink" title="基础描述及结构（6.1、6.3）"></a>基础描述及结构（6.1、6.3）</h2><h3 id="基础描述（5-3、6-1）"><a href="#基础描述（5-3、6-1）" class="headerlink" title="基础描述（5.3、6.1）"></a>基础描述（5.3、6.1）</h3><ul>
 <li>块位置：左上角为原点 (0, 0) 向下x+，向右y+</li>
 <li>版本表示：Version V-E（其中V是版本号，E是纠错等级）</li>
 <li>数据表示：黑块-1 白块-0（可以带背景全部反色）</li>
@@ -251,6 +251,7 @@ gtag('config', 'G-6Y2T80Y26J');
 <th style="text-align:center">版本</th>
 <th style="text-align:center">数字模式字符数量标识符长度</th>
 <th style="text-align:center">字母模式…</th>
+<th style="text-align:center">字节模式…</th>
 <th style="text-align:center">日文模式…</th>
 </tr>
 </thead>
@@ -260,21 +261,21 @@ gtag('config', 'G-6Y2T80Y26J');
 <td style="text-align:center">10</td>
 <td style="text-align:center">9</td>
 <td style="text-align:center">8</td>
-<td>8</td>
+<td style="text-align:center">8</td>
 </tr>
 <tr>
 <td style="text-align:center">10～26</td>
 <td style="text-align:center">12</td>
 <td style="text-align:center">11</td>
 <td style="text-align:center">16</td>
-<td>10</td>
+<td style="text-align:center">10</td>
 </tr>
 <tr>
 <td style="text-align:center">27～40</td>
 <td style="text-align:center">14</td>
 <td style="text-align:center">13</td>
 <td style="text-align:center">16</td>
-<td>12</td>
+<td style="text-align:center">12</td>
 </tr>
 </tbody>
 </table>
@@ -292,12 +293,20 @@ gtag('config', 'G-6Y2T80Y26J');
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center">000000 ～ 000127</td>
+<td style="text-align:center">0xxxxxxx</td>
+</tr>
+<tr>
+<td style="text-align:center">000000 ～ 016383</td>
+<td style="text-align:center">10xxxxxx xxxxxxxx</td>
+</tr>
+<tr>
+<td style="text-align:center">000000 ～ 999999</td>
+<td style="text-align:center">110xxxxx xxxxxxxx xxxxxxxx</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>000000 ～ 000127 | 0xxxxxxx<br>000000 ～ 016383 | 10xxxxxx xxxxxxxx<br>000000 ～ 999999 | 110xxxxx xxxxxxxx xxxxxxxx</p>
 <p>而且 ECI 模式下中途可以更换 ECI 指示器，一个 5C（01011100）表示换新的 ECI，后面要接6个 codewords 即6个数字（十六进制30～39）表示编号，而不是用上表中的表示方法。而 5C 正常情况下表示 \ ，所以表示 \ 这个原数据需要用两个 5C</p>
 <ul>
 <li><strong>例子 1</strong><ul>
