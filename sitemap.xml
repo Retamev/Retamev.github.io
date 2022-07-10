@@ -158,6 +158,34 @@
   </url>
   
   <url>
+    <loc>https://retamev.github.io/tags/%E5%87%BD%E6%95%B0%E4%BF%AE%E9%A5%B0%E5%99%A8/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/tags/QRCode/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/tags/CTF/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/tags/LaTeX/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://retamev.github.io/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -172,7 +200,14 @@
   </url>
   
   <url>
-    <loc>https://retamev.github.io/tags/LaTeX/</loc>
+    <loc>https://retamev.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/tags/Pytorch/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -206,42 +241,14 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://retamev.github.io/tags/%E5%87%BD%E6%95%B0%E4%BF%AE%E9%A5%B0%E5%99%A8/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/tags/QRCode/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/tags/CTF/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/tags/Pytorch/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
+  
+  <url>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://retamev.github.io/categories/%E6%97%A5%E5%BF%97/</loc>
@@ -258,7 +265,21 @@
   </url>
   
   <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-Python/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-CTF/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -279,7 +300,7 @@
   </url>
   
   <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BB%BC%E5%90%88/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -293,7 +314,7 @@
   </url>
   
   <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-%E7%BB%BC%E5%90%88/</loc>
+    <loc>https://retamev.github.io/categories/%E7%90%86%E8%AE%BA/%E7%90%86%E8%AE%BA-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -301,27 +322,6 @@
   
   <url>
     <loc>https://retamev.github.io/categories/%E6%97%A5%E5%BF%97/%E6%97%A5%E5%BF%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-Python/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF-CTF/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/categories/%E7%90%86%E8%AE%BA/%E7%90%86%E8%AE%BA-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
