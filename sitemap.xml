@@ -200,6 +200,13 @@
   </url>
   
   <url>
+    <loc>https://retamev.github.io/tags/OOP/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://retamev.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -208,13 +215,6 @@
   
   <url>
     <loc>https://retamev.github.io/tags/Pytorch/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://retamev.github.io/tags/OOP/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
