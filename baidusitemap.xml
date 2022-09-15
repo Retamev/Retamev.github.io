@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://retamev.github.io/2022/09/15/dive-into-dl-pytorch-B/</loc>
+    <lastmod>2022-09-15</lastmod>
+  </url>
+  <url>
     <loc>https://retamev.github.io/2022/07/10/dive-into-dl-pytorch-A/</loc>
     <lastmod>2022-08-05</lastmod>
   </url>
